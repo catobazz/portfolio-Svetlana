@@ -1,19 +1,18 @@
-
+import styled from 'styled-components';
+import { Logo } from '../../components/logo/Logo.tsx';
+import { Menu } from '../../components/menu/Menu.tsx';
 
 export const Header = () => {
-    return (
-        <header>
-            <a href="">
-                <img src="" alt=""/>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Testimony</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    );
+  return (
+    <StyledHeader>
+      <Logo />
+      <Menu />
+    </StyledHeader>
+  );
 };
+
+const StyledHeader = styled.header`
+  background-color: #88f67d;
+    display: flex;
+    justify-content: space-between;
+`;
