@@ -1,21 +1,27 @@
-import {Icon} from "../../../../components/icon/Icon.tsx";
-import styled from "styled-components";
+import { Icon } from '../../../../components/icon/Icon.tsx';
+import styled from 'styled-components';
 
-export const Skill = () => {
-    return (
-        <StyledSkill>
-            <Icon iconId={'codeSvg'}/>
-            <SkillTitle>HTML</SkillTitle>
-            <SkillText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur culpa distinctio et,
-                facilis illum iusto molestiae mollitia nam nisi perspiciatis quis recusandae rem vel veniam. Ad et qui
-                quos!
-            </SkillText>
-        </StyledSkill>
-    );
+type Props = {
+  iconId: string;
+  title: string;
+  description: string;
 };
 
-const StyledSkill = styled.div``;
+export const Skill = ({ iconId, title, description }: Props) => {
+  return (
+    <StyledSkill>
+      <Icon iconId={iconId} />
+      <SkillTitle>{title}</SkillTitle>
+      <SkillText>{description}</SkillText>
+    </StyledSkill>
+  );
+};
+
+const StyledSkill = styled.div`
+    width: 30%;
+    background-color: rgba(246, 241, 191, 0.53);
+    margin: 10px;
+`;
 
 const SkillTitle = styled.h3``;
 
