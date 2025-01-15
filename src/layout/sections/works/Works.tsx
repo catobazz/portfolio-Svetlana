@@ -16,12 +16,20 @@ export const Works = () => {
       <FlexWrapper justifyContent={'space-around'}>
         <Work
           title={'Social Network'}
-          text={'asdsdff afgsadsdfggggggggggg  fasdfasdhafgag asg asg iasgasg '}
+          text={
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti dignissimos, fugiat ipsa ' +
+            'ipsam itaque iure labore porro quod voluptatum! Blanditiis deserunt doloremque est libero quis rem ' +
+            'repellendus reprehenderit, rerum.'
+          }
           src={socialImg}
         />
         <Work
           title={'Timer'}
-          text={'asdsdff afghasadffhhhhhhhhhhhhhhhhhhhhhsddg gag asg asg iasgasg '}
+          text={
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti dignissimos, fugiat ipsa ' +
+            'ipsam itaque iure labore porro quod voluptatum! Blanditiis deserunt doloremque est libero quis rem ' +
+            'repellendus reprehenderit, rerum.'
+          }
           src={timerImg}
         />
       </FlexWrapper>
