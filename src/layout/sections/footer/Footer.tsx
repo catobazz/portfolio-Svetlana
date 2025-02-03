@@ -36,7 +36,7 @@ export const Footer = () => {
   )
 }
 
-const StyledFooter = styled.section`
+const StyledFooter = styled.div`
   min-height: 20vh;
   background-color: #834a36;
 `
