@@ -6,5 +6,5 @@ max-width: 1170px;
     margin: 0 auto;
     min-height: 15px;
     padding: 0 15px;
-    border: 1px solid red;
+    outline: 1px solid red;
 `
