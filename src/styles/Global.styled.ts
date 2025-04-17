@@ -33,6 +33,8 @@ export const GlobalStyle = createGlobalStyle`
     button {
         background-color: unset;
         border: none;
+        cursor: pointer;
+        color: ${theme.colors.font};
     }
 
     section {
@@ -58,5 +60,6 @@ export const GlobalStyle = createGlobalStyle`
     p {
         font-size: 14px;
         font-weight: 400;
+        line-height: 1.4;
     }
 `;
