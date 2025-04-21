@@ -10,9 +10,9 @@ export const Contact = () => {
       <Container>
         <SectionTitle>Contact</SectionTitle>
         <StyledForm>
-          <Field placeholder={'name'} />
-          <Field placeholder={'subject'} />
-          <Field placeholder={'massage'} as={'textarea'} />
+          <Field placeholder={'Name'} />
+          <Field placeholder={'Subject'} />
+          <Field placeholder={'Message'} as={'textarea'} />
           <Button type={'submit'}>Send message</Button>
         </StyledForm>
       </Container>
